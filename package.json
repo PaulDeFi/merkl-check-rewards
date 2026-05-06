@@ -1,0 +1,15 @@
+{
+  "name": "merkl",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "rzfi": "node get-rzfi-rewards.js",
+    "rzfi:default": "node get-rzfi-rewards.js 0xc567230d56f1066a0f86594882e75aa6a1a6fcf7 2026-04-07T00:00:00Z 2026-04-19T00:00:00Z rZFI"
+  }
+}
