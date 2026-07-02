@@ -55,9 +55,9 @@ const fmt = (wei, decimals) => {
 };
 
 async function main() {
-  const address = process.argv[2] || '0xc567230d56f1066a0f86594882e75aa6a1a6fcf7';
-  const fromIso = process.argv[3] || '2026-04-07T00:00:00Z';
-  const toIso = process.argv[4] || '2026-04-19T00:00:00Z';
+  const address = process.argv[2] || '0x55cfd89d82e62a98e00b47411cf5eacc6b9b3744';
+  const fromIso = process.argv[3] || '2026-06-01T00:00:00Z';
+  const toIso = process.argv[4] || '2026-06-29T00:00:00Z';
   const symbol = process.argv[5] || 'rZFI';
 
   const fromTs = Math.floor(Date.parse(fromIso) / 1000);
